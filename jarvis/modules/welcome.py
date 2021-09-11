@@ -138,7 +138,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#USER_JOINED\n"
-                    f"Bot Owner just joined the chat"
+                    f"Haha my Owner just joined the chat"
                 )
 
             # Welcome Devs
@@ -173,7 +173,7 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
 
             # Welcome yourself
             elif new_mem.id == bot.id:
-                update.effective_message.reply_text("Thanks for adding me! Join our support chat @JarvisSupportOt for support.. <3")
+                update.effective_message.reply_text("Thanks for adding me! Join our support chat @CFC_BOT_support for support.. <3")
 
             else:
                 # If welcome message is media, send with appropriate function
