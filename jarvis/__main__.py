@@ -48,8 +48,8 @@ You can find the list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}* [ㅤ](https://telegra.ph/file/17390f5fdaf2c4733ee51.jpg).
-I'm part of [ProBotz](https://t.me/Probotz)
+Hey there! My name is *{}* [ㅤ](https://telegra.ph/file/05d4b03ae5cca66a3458f.jpg).
+I'm part of [CFC](https://t.me/CFChub)
 Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
@@ -166,24 +166,24 @@ def start(bot: Bot, update: Update, args: List[str]):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="Add Jarvis to your group",
+                            text="Add Phoenix to your group",
                             url="t.me/{}?startgroup=true".format(bot.username))
                     ],
                     [
                         InlineKeyboardButton(
                             text="Support Chat",
-                            url=f"https://t.me/ProBotzSupport"),
+                            url=f"https://t.me/CFC_BOT_support"),
                         InlineKeyboardButton(
                             text="Updates Channel",
-                            url="https://t.me/Probotz")
+                            url="https://t.me/phoenix_empire")
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Source Code",
-                            url="https://github.com/sppidy/JarvisRobot/")
+                            text="Owner",
+                            url="https://t.me/heyaaman")
                     ]]))
     else:
-        update.effective_message.reply_text("Hi, I'm Jarvis.")
+        update.effective_message.reply_text("Hi, I'm Phoenix.")
 
 
 # for test purposes
