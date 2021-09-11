@@ -48,7 +48,7 @@ You can find the list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}* [ㅤ](https://telegra.ph/file/05d4b03ae5cca66a3458f.jpg).
+Hey there! My name is *{}* [ㅤ](https://telegra.ph/file/82cc9af7cece8a3d96984.jpg).
 I'm part of [CFC](https://t.me/CFChub)
 Have a look at the following for an idea of some of \
 the things I can help you with.
